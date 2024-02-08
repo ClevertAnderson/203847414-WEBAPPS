@@ -1,6 +1,7 @@
 body, h1, h2, h3, p, ul, li, figure, table {
     margin: 0;
-    padding: 0;
+    
+    
 }
 
 body {
@@ -17,6 +18,20 @@ header {
     top: 0;
     width: 100%;
     z-index: 1000;
+    text-align: center;
+}
+
+main {
+    margin: 0px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    border: 10px solid #333;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 10px;
+    border: solid #333;
 }
 
 nav ul {
@@ -35,14 +50,33 @@ nav a {
     font-weight: bold;
 }
 
-main {
-    margin: 20px;
-    margin-bottom: 50px; /* Adjust the margin-bottom value based on your footer height */
-    padding-top: 60px;  /* Add padding to the top to accommodate the fixed header */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-section {
-    margin-bottom: 40px;
+.flex-item {
+    margin: 10px;
+}
+
+figure {
+    max-width: 100%;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.welcome, .subhome {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-us-container {
+    max-width: 400px;
+    text-align: center;
 }
 
 form {
@@ -50,7 +84,7 @@ form {
 }
 
 form label {
-    display: block;
+    display: inline-block;
     margin-bottom: 8px;
 }
 
@@ -63,7 +97,12 @@ form input[type="password"] {
 
 form input[type="radio"],
 form input[type="checkbox"] {
-    margin-bottom: 16px;
+    vertical-align: middle;
+    margin-bottom: 8px;
+}
+
+form label input[type="checkbox"] {
+    margin-bottom: 5px;
 }
 
 table {
@@ -81,12 +120,13 @@ table th, table td {
 #iframe-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px; /* Adjust the spacing between audio/video and iframe/blockquote */
+    margin-top: 20px;
 }
 
 iframe,
 .twitter-tweet {
-    width: 48%; /* Adjust the width based on your layout */
+    width: 70%;
+    height: auto;
     border: 2px solid #333;
     border-radius: 8px;
     box-sizing: border-box;
@@ -94,11 +134,11 @@ iframe,
 
 audio,
 video {
-    width: 48%; /* Adjust the width based on your layout */
+    width: 48%;
     border: 2px solid #333;
     border-radius: 8px;
     box-sizing: border-box;
-    margin-top: 20px; /* Add some space between audio/video and iframe/blockquote */
+    margin-top: 20px;
 }
 
 
@@ -117,25 +157,23 @@ video::-webkit-media-controls-panel {
     padding: 8px;
 }
 
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 5px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    font-size: 14px;
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
+
 footer {
     background-color: #333;
     color: #fff;
-    padding: 5px;
+    padding: 2px;
     position: fixed;
     bottom: 0;
     width: 100%;
     font-size: 14px;
+    text-align: center;
 }
 
 footer ul {
