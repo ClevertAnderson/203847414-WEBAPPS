@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation3</title>
+    <link rel="stylesheet" href="HTML3.css">
+    <script src="HTML3.js" defer></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-GLhlTQ8iKs7D513i+9aLd5PsrHS4HViN/6aihaTrjZXJn5/6Z9EXRTt8+pR6L4N2"
+        crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home"><b>Home</b></a></li>
+                <li><a href="#form"><b>Forms</b></a></li>
+                <li><a href="#table"><b>Table</b></a></li>
+                <li><a href="#media"><b>Media</b></a></li>
+                <li><a href="#contact"><b>Contact</b></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home">
+            <h2 class="welcome">Welcome to Our Website!</h2>
+            <p class="subhome">This is a HTML Activity we are working on so just stick with us till the end to see
+                the finished website.</p>
+
+            <div class="flex-container">
+                <div class="flex-item">
+                    <figure>
+                        <img src="Forest.jpg" alt="MEME">
+                        <figcaption>Nature is one of the most relaxing places to go.</figcaption>
+                    </figure>
+                </div>
+                <div class="flex-item">
+                    <div class="about-us-container">
+                        <h2 class="about-us">About Us</h2>
+                        <p>I'm working alone on this activity, even though I don't know what I'm doing, so bare with me.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="form">
+            <h2>Form</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required minlength="3">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required minlength="6">
+                <p>
+                    <label>Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male"> Male
+                    <input type="radio" id="female" name="gender" value="female"> Female
+                </p>
+                <p>
+                    <input type="checkbox" id="acceptTerms" name="acceptTerms" required>
+                    <label for="acceptTerms">Accept Terms and Conditions</label>
+                </p>
+                <p><input type="submit" value="Submit"></p>
+            </form>
+        </section>
+
+        <section id="table">
+            <h2>Table</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>City</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>25</td>
+                        <td>New York</td>
+                    </tr>
+                    <tr>
+                        <td>Jane</td>
+                        <td>30</td>
+                        <td>Los Angeles</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="media">
+            <h2>Media</h2>
+            <div class="media-container">
+                <audio controls>
+                    <source src="audio.mp3">
+                </audio>
+                <video controls width="400" height="400">
+                    <source src="vid.mp4">
+                </video>
+            </div>
+        
+            <div id="iframe-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3150.638106524839!2d-122.41941588469644!3d37.77492937975996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580a23fdf44ed%3A0xd29bbf6843f650f7!2sGolden%20Gate%20Park!5e0!3m2!1sen!2sus!4v1643836012957!5m2!1sen!2sus"
+                    height="400" allowfullscreen="" loading="lazy"></iframe>
+        
+                <blockquote class="twitter-tweet">
+                    <p lang="en" dir="ltr">BREAKING:<br><br>🇺🇸 ⚡ 🇮🇷 A War between U.S. and Iran is on the brink, the US has
+                        decided
+                        to target Iran's assets and military personnel<br><br>U.S. officials have confirmed to CBS News that plans
+                        have been approved for a series of strikes over a number of days against targets, including… <a
+                            href="https://t.co/3Bmp2e6Ah6">pic.twitter.com/3Bmp2e6Ah6</a></p>&mdash; Megatron
+                    (@Megatron_ron)
+                    <a href="https://twitter.com/Megatron_ron/status/1753068982184059267?ref_src=twsrc%5Etfw">February 1,
+                        2024</a>
+                </blockquote>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+                <p>Have questions or want to get in touch? Reach out to us through the provided contact information.</p>
+                <ul>
+                    <li>Mobile No: 09083272378</li>
+                    <li>Email Address: network230206@gmail.com</li>
+                </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>External Resources:</p>
+        <ul>
+            <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
