@@ -90,7 +90,7 @@ a, a:visited {
 	transition: all 0.3s ease-in-out;
 }
 a:hover, a:focus, a:active {
-	color: #FF0077;
+	color: blue;
 	outline: 0;
 }
 
@@ -1798,6 +1798,8 @@ header .logo a {
 	padding: 0;
 	position: relative;
 	overflow: hidden;
+	width: auto;
+	height: auto;
 }
 #portfolio .folio-item img {
 	vertical-align: middle;
