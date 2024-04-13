@@ -524,6 +524,7 @@ select {
 	padding: 1.5rem 0;
 	border: 0;
 	outline: none;
+	vertical-align: middle;
 	color: #313131;
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.5rem;
@@ -924,7 +925,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	color: #252525;
 }
 .stats-tabs li a:hover {
-	color: #FF0077;
+	color: blue;
 }
 .stats-tabs li a em {
 	display: block;
@@ -1019,10 +1020,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- 
  */
 .grey-section {
-	background: #ebebeb;
+	background: gray;
 }
 .grey-section p.lead {
-	color: #7d7d7d;
+	color: #000;
 }
 .section-intro {
 	max-width: 700px;
@@ -1035,12 +1036,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-intro h1 {
 	font-family: "poppins-semibold", serif;
 	font-size: 3.6rem;
-	color: #313131;
+	color: #fff;
 	line-height: 1.25;
 	margin-bottom: 1.2rem;
 }
 .section-intro h5 {
-	color: #FF0077;
+	color: yellow;
 	font-size: 1.6rem;
 	line-height: 1.875;
 	margin-bottom: 0.3rem;
@@ -1094,11 +1095,11 @@ header .row {
 }
 header .top-bar {
 	display: block;
-	background: #000000;
+	background: #000;
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
-	left: 90px;
+	left: -100px;
 	top: 0;
 }
 header .logo {
@@ -1112,13 +1113,13 @@ header .logo a {
 	display: block;
 	margin: 0;
 	padding: 0;
-	border: none;
+	border: 0.5px solid lightgray;
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
 	width: 50px;
 	height: 30px;
-	background: url("../images/logo2.png") no-repeat center;
+	background: url("../images/logo3.png") no-repeat center;
 	background-size: 40px 30px;
 }
 
@@ -1137,7 +1138,7 @@ header .logo a {
 }
 .menu-toggle span {
 	display: block;
-	background-color: #FF0077;
+	background-color: blue;
 	width: 24px;
 	height: 3px;
 	margin-top: -1.5px;
@@ -1195,7 +1196,7 @@ header .logo a {
 	background-color: rgba(255, 0, 119, 0);
 }
 .menu-toggle.is-clicked span::before, .menu-toggle.is-clicked span::after {
-	background-color: #ff0077;
+	background-color: blue;
 	-moz-transition-delay: 0s, 0.2s;
 	-o-transition-delay: 0s, 0.2s;
 	-webkit-transition-delay: 0s, 0.2s;
@@ -1251,12 +1252,12 @@ header .logo a {
 	border: none;
 }
 .main-navigation li a:hover {
-	color: #FF0077;
+	color: blue;
 	padding-left: 1rem;
 }
 .main-navigation li.current > a {
 	background: none;
-	color: #FF0077;
+	color: blue;
 }
 
 /**
@@ -1323,7 +1324,6 @@ header .logo a {
 	-ms-transform: translateY(-2.1rem);
 	transform: translateY(-2.1rem);
 }
-
 .intro-content h1 {
 	color: #FFFFFF;
 	font-family: "poppins-medium", sans-serif;
@@ -1337,7 +1337,7 @@ header .logo a {
 	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .intro-content h5 {
-	color: #cc005f;
+	color: yellow;
 	font-family: "poppins-bold", sans-serif;
 	font-size: 2.3rem;
 	line-height: 1.565;
@@ -1384,7 +1384,7 @@ header .logo a {
 	letter-spacing: .25rem;
 }
 .intro-content .button:hover, .intro-content .button:focus {
-	border-color: #cc005f;
+	border-color: blue;
 }
 .intro-content .button::after {
 	display: inline-block;
@@ -1416,7 +1416,7 @@ header .logo a {
 	color: #FFFFFF;
 }
 .intro-social li a:hover, .intro-social li a:focus {
-	color: #cc005f;
+	color: blue;
 }
 
 /**
@@ -1490,7 +1490,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background: #FFFFFF;
+	background: darkgray;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
@@ -1513,6 +1513,7 @@ header .logo a {
 .intro-info .lead {
 	text-align: left;
 	padding-left: 13rem;
+	color: #000;
 }
 
 .about-content {
@@ -1520,12 +1521,14 @@ header .logo a {
 	text-align: left;
 	max-width: 850px;
 	margin-bottom: 3.6rem;
+	color: #000;
 }
 .about-content h3 {
 	font-family: "poppins-bold", sans-serif;
 	font-size: 1.8rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
+	color: #fff;
 }
 .about-content .info-list {
 	list-style: none;
@@ -1537,7 +1540,7 @@ header .logo a {
 }
 .about-content .info-list li strong {
 	font-family: "poppins-bold", sans-serif;
-	color: #313131;
+	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
@@ -1546,7 +1549,7 @@ header .logo a {
 .about-content .info-list li span {
 	display: block;
 	font-family: "poppins-regular", sans-serif;
-	color: #888888;
+	color: #000;
 	font-size: 1.5rem;
 	line-height: 1;
 }
@@ -1624,12 +1627,15 @@ header .logo a {
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
+#resume .grey-section {
+	background-color: gray;
+}
 
 #resume .resume-header {
 	text-align: center;
 }
 #resume .resume-header h2 {
-	color: #FF0077;
+	color: yellow;
 }
 
 #resume .resume-timeline {
@@ -1658,7 +1664,7 @@ header .logo a {
 	height: 4.8rem;
 	width: 4.8rem;
 	line-height: 4.8rem;
-	background: #313131;
+	background: #000;
 	border-radius: 50%;
 	text-align: center;
 	color: #FFFFFF;
@@ -1685,11 +1691,12 @@ header .logo a {
 #resume .timeline-header p {
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.6rem;
-	color: #888888;
+	color: #fff;
 }
 #resume .timeline-content {
 	margin-left: 35%;
 	padding-left: 60px;
+	color: #fff;
 }
 #resume .timeline-content h4 {
 	position: relative;
@@ -1700,7 +1707,7 @@ header .logo a {
 	display: block;
 	height: 3px;
 	width: 50px;
-	background: rgba(0, 0, 0, 0.2);
+	background: #fff;
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -1790,16 +1797,17 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #portfolio {
-	background: #FFFFFF;
+	background: darkgray;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
+}
+#portfolio .lead {
+	color: #000;
 }
 #portfolio .folio-item {
 	padding: 0;
 	position: relative;
 	overflow: hidden;
-	width: auto;
-	height: auto;
 }
 #portfolio .folio-item img {
 	vertical-align: middle;
@@ -1843,7 +1851,7 @@ header .logo a {
 }
 
 #portfolio .folio-title {
-	color: #FFFFFF;
+	color: #fff;
 	font-size: 3.3rem;
 	padding: 0 3rem;
 	margin-bottom: 0;
@@ -1855,7 +1863,7 @@ header .logo a {
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.2rem;
 	letter-spacing: .1rem;
-	color: rgba(255, 255, 255, 0.6);
+	color: #fff;
 }
 #portfolio .folio-item:hover .overlay {
 	background: rgba(0, 0, 0, 0.8);
@@ -1958,7 +1966,7 @@ header .logo a {
 	border-right: 1px solid rgba(200, 200, 200, 0.1);
 }
 .popup-modal .link-box a:hover {
-	background: #cc005f;
+	background: blue;
 	border: none;
 }
 @media only screen and (max-width:600px) {
@@ -2034,7 +2042,7 @@ header .logo a {
 	text-align: center;
 }
 #cta p.lead {
-	color: #6e6e6e;
+	color: #000;
 }
 .cta-content {
 	max-width: 640px;
@@ -2069,7 +2077,7 @@ header .logo a {
 	margin-left: -40px;
 }
 .section-ads h2 a, .section-ads h2 a:visited {
-	color: #313131;
+	color: #fff;
 }
 .section-ads span {
 	color: #3F0D39;
@@ -2097,7 +2105,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #services {
-	background: #313131 url(../images/logo2.png) no-repeat center;
+	background: #313131 url(../images/logo3.png) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -2124,7 +2132,7 @@ header .logo a {
 	color: white;
 }
 #services .section-intro h5 {
-	color: #FF0077;
+	color: yellow;
 }
 #services .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
@@ -2146,7 +2154,7 @@ header .logo a {
 }
 .services-list .icon i {
 	font-size: 5.4rem;
-	color: #FF0077;
+	color: blue;
 }
 .services-list h3 {
 	color: #FFFFFF;
@@ -2174,7 +2182,7 @@ header .logo a {
 	background: #FFFFFF;
 }
 .owl-theme .owl-controls .owl-page.active span {
-	background: #FF0077;
+	background: blue;
 }
 
 
@@ -2185,7 +2193,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #stats {
-	background: #990047;
+	background: blue;
 	padding-top: 7.2rem;
 	padding-bottom: 6rem;
 	text-align: center;
@@ -2260,7 +2268,7 @@ header .logo a {
 	color: white;
 }
 #contact .section-intro h5 {
-	color: #FF0077;
+	color: yellow;
 }
 #contact .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
@@ -2313,7 +2321,7 @@ header .logo a {
 	padding: 0 2rem;
 	margin: 0;
 	color: #FFFFFF;
-	background: #FF0077;
+	background: blue;
 }
 #contact form .form-field label::after {
 	position: absolute;
@@ -2322,7 +2330,7 @@ header .logo a {
 	margin-top: -6px;
 	border-top: 5px solid transparent;
 	border-bottom: 5px solid transparent;
-	border-right: 5px solid #FF0077;
+	border-right: 5px solid blue;
 	content: "";
 }
 #contact input[type="text"],
@@ -2344,7 +2352,7 @@ header .logo a {
 #contact input[type="text"]:focus,
 #contact input[type="password"]:focus,
 #contact input[type="email"]:focus {
-	border-color: #FF0077;
+	border-color: blue;
 	color: #FFFFFF;
 }
 #contact textarea {
@@ -2352,7 +2360,7 @@ header .logo a {
 	padding: 1.8rem 2rem;
 }
 #contact textarea:focus {
-	border-color: #FF0077;
+	border-color: blue;
 	color: #FFFFFF;
 }
 #contact button.submitform {
@@ -2364,11 +2372,11 @@ header .logo a {
 	padding: 0 3rem;
 	margin-top: 4.8rem;
 	width: 100%;
-	background: #FF0077;
+	background: blue;
 	color: #FFFFFF;
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
-	background: #cc005f;
+	background: black;
 }
 #message-warning, #message-success {
 	display: none;
@@ -2427,7 +2435,7 @@ header .logo a {
 	color: #FFFFFF;
 }
 .contact-info h5 {
-	color: #FF0077;
+	color: yellow;
 }
 
 /**
@@ -2580,7 +2588,7 @@ footer .copyright span:last-child::after {
 	width: 6rem;
 	line-height: 6.6rem;
 	text-align: center;
-	background: #cc005f;
+	background: blue;
 	color: #FFFFFF;
 	text-align: center;
 	text-transform: uppercase;
